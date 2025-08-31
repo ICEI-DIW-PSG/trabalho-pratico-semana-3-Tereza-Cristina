@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Tereza Cristina Rodrigues Silva
+- Matricula: 900751
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: O meu projeto é um site de resumo dos filmes do Studio Ghibli, onde vai mostrar todos os filmes lançados.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print wireframe](/public/img/wireframe.jpg)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print home-page](/public/img/print.png)
