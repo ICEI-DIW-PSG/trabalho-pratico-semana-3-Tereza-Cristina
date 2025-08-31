@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Layout principal */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#e0faf4,#195346);
+  }
+  
+  /* Header */
+  .titulo {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    background-image: linear-gradient(#fc577b, #a11030);
+  }
+  
+  /* Main layout: menu lateral + área de filmes */
+  main {
+    display: flex;
+  }
+  
+  /* Navegador lateral (esquerda) */
+  .navegador {
+    width: 250px;
+    padding: 25px;
+    flex-direction: column;
+    background-color: #e48f8f;
+    border-right: 1px solid #000;
+  }
+  
+  /* Login */
+  .login fieldset {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .login legend {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .login input {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #fabfcc;
+  }
+  
+  .botao_login {
+    display: block;
+    margin: 30px auto 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #a11030;
+  }
+  
+  /* Pesquisa */
+  .pesquisa {
+    width: 150px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #fabfcc;
+  }
+  
+  .botao_ok {
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-left: 5px;
+    background-color: #a11030;
+  }
+  
+  /* Menu de navegação */
+  .menu button {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: #a11030;
+  }
+  
+  /* Grid de filmes */
+  main > div {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  
+  /* Cada artigo/filme */
+  article {
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  article img {
+    width: 100%;
+    border-radius: 15px;
+
+  }
+  
+    p {
+    padding: 5px;
+    font-weight: bold;
+  }
+  
