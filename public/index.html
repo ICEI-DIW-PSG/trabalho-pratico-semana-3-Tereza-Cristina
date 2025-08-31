@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-         <!-- Cabeçalho/titulo -->
+    <title>Viagem Yūgen</title>
+  </head>
+  <body>
     <header class="titulo">
         <h1>Viagem Yūgen</h1>
+        <section>
+            <input type="text" class="pesquisa" placeholder="Pesquisar">
+            <button class="botao_ok">IR</button>
+        </section>
+        <section class="menu">
+            <button>Home</button>
+            <button>Sobre o site</button>
+        </section>
     </header>
-    <!--Conteudo do site-->
     <main>
         <nav class="navegador">
             <section class="login">
@@ -24,45 +31,40 @@
                     </fieldset>
                 </form>
             </section>
-            <section>
-                <input type="text" class="pesquisa" placeholder="Pesquisar">
-                <button class="botao_ok">IR</button>
-            </section>
-            <section class="menu">
-                <button>Home</button>
-                <button>Sobre Studio Ghibli</button>
-                <button>Sobre o site</button>
-            </section>
+           <section class="resumo">
+            <h3>Sobre o Studio Ghibli</h3>
+            <p class="sobre">O Studio Ghibli é um renomado estúdio de animação japonês, fundado em 1985 pelos diretores Hayao Miyazaki e Isao Takahata, com o produtor Toshio Suzuki. É amplamente reconhecido por sua animação artesanal de altíssima qualidade, tramas emocionantes e universos ricos em imaginação. Entre seus filmes mais icônicos estão A Viagem de Chihiro (vencedor do Oscar de Melhor Animação), Meu Amigo Totoro, O Castelo Animado e Princesa Mononoke. Os filmes do Studio Ghibli conquistaram públicos de todas as idades e influenciaram profundamente o cinema de animação no mundo todo.</p>
+           </section>
         </nav>
         <div>
             <article>
-                <img src="https://picsum.photos/id/27/200/200" alt="Filme 1">
-                <p>Nome do Filme 1</p>
+                <img src="/public/img/aviagemdechihiro.jpg" alt="Filme 1">
+                <p>A Viagem de Chihiro (2001)</p>
             </article>
             <article>
-                <img src="https://picsum.photos/id/33/200/200" alt="Filme 2">
-                <p>Nome do Filme 2</p>
+                <img src="/public/img/princesamononoke.jpg" alt="Filme 2">
+                <p>Princesa Mononoke (1997)</p>
             </article>
             <article>
-                <img src="https://picsum.photos/id/43/200/200" alt="Filme 3">
-                <p>Nome do Filme 3</p>
+                <img src="/public/img/ocasteloanimado.jpg" alt="Filme 3">
+                <p>O Castelo Animado (2004)</p>
             </article>
             <article>
-                <img src="https://picsum.photos/id/55/200/200" alt="Filme 4">
-                <p>Nome do Filme 4</p>
+                <img src="/public/img/meuamigototoro.jpg" alt="Filme 4">
+                <p>Meu Amigo Totoro (1988)</p>
             </article>
             <article>
-                <img src="https://picsum.photos/id/10/200/200" alt="Filme 5">
-                <p>Nome do Filme 5</p>
+                <img src="/public/img/ponyo.jpg" alt="Filme 5">
+                <p>Ponyo (2008)</p>
             </article>
             <article>
-                <img src="https://picsum.photos/id/20/200/200" alt="Filme 6">
-                <p>Nome do Filme 6</p>
+                <img src="/public/img/tumulodosvagalumes.jpg" alt="Filme 6">
+                <p>Tumulo dos Vagalumes (1989)</p>
             </article>
         </div>
     </main>
     <footer class="footer">
-        &copy; 2025 Tereza Cristina - Todos os direitos reservados.
-      </footer>
-</body>
+      &copy; 2025 Tereza Cristina - Todos os direitos reservados.
+    </footer>
+  </body>
 </html>
