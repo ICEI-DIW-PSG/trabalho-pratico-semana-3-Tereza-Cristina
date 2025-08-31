@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -121,5 +122,13 @@
     p {
     padding: 5px;
     font-weight: bold;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #000;
+    background-color: #a11030;
   }
   
